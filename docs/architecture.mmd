@@ -1,0 +1,15 @@
+flowchart LR
+    A[Resume PDF / DOCX / TXT] --> B[Document Parser]
+    C[Job Description] --> B
+    B --> D[Text Cleaning]
+    D --> E[Skill Taxonomy + Alias Matching]
+    D --> F[TF-IDF Vectorization]
+    D --> G[Experience Evidence]
+    E --> H[Hybrid Scoring Engine]
+    F --> H
+    G --> H
+    H --> I[Streamlit Dashboard]
+    I --> J[Match Score]
+    I --> K[Matched Skills]
+    I --> L[Missing Skills]
+    I --> M[Recommendations]
