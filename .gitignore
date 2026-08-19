@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data and generated files
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.joblib
+*.log
+
+# User uploads and screenshots
+uploads/
+assets/generated/
