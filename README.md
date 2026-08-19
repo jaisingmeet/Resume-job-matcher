@@ -71,7 +71,7 @@ streamlit run app/main.py
 
 The browser will open the Streamlit interface. If it does not open automatically, visit the URL printed in the terminal, normally `http://localhost:8501`.
 
-For a lightweight first run, install all packages except the optional `sentence-transformers` package. The current engine does not require a downloaded transformer model; it uses a deterministic TF-IDF fallback so that the application remains fast and reproducible.
+The baseline does not require a downloaded transformer model; it uses deterministic TF-IDF similarity so that the application remains fast and reproducible. A semantic embedding layer can be added later as a separately evaluated upgrade.
 
 ## Usage
 
